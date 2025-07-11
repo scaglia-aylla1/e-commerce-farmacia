@@ -85,19 +85,6 @@ src/
 │       └── db/migration/
 └── test/
 ```
-
-#### Frontend (React)
-```
-src/
-├── components/       # Componentes reutilizáveis
-├── pages/            # Páginas da aplicação
-├── hooks/            # Custom hooks
-├── services/         # Chamadas API
-├── store/            # Gerenciamento de estado
-├── types/            # Tipos TypeScript
-└── utils/            # Utilitários
-```
-
 ---
 
 ## ⚙️ Requisitos Funcionais
@@ -385,117 +372,6 @@ PUT /api/v1/prescriptions/{id}/validate
 
 ---
 
-## 📅 Roadmap de Desenvolvimento
-
-### Fase 1: Fundação (Semanas 1-3)
-**Objetivo**: Estabelecer base sólida do projeto
-
-#### Semana 1: Setup e Configuração
-- [ ] Configuração do repositório Git
-- [ ] Setup do ambiente de desenvolvimento
-- [ ] Configuração do Docker
-- [ ] Criação do banco de dados
-- [ ] Setup inicial do Spring Boot
-- [ ] Configuração do React/TypeScript
-
-#### Semana 2: Autenticação e Segurança
-- [ ] Implementação do Spring Security
-- [ ] Sistema de JWT
-- [ ] Cadastro e login de usuários
-- [ ] Gerenciamento de roles
-- [ ] Validação de CPF
-- [ ] Testes de segurança
-
-#### Semana 3: Estrutura Base
-- [ ] Padrões de arquitetura
-- [ ] Configuração do Swagger
-- [ ] Setup do pipeline CI/CD
-- [ ] Configuração de testes
-- [ ] Estrutura do frontend
-- [ ] Sistema de roteamento
-
-### Fase 2: Core Business (Semanas 4-7)
-**Objetivo**: Implementar funcionalidades principais
-
-#### Semana 4: Gestão de Produtos
-- [ ] CRUD de categorias
-- [ ] CRUD de produtos
-- [ ] Upload de imagens
-- [ ] Sistema de busca
-- [ ] Filtros avançados
-- [ ] Validações específicas
-
-#### Semana 5: Controle de Estoque
-- [ ] Sistema de inventário
-- [ ] Controle de lotes
-- [ ] Alertas de validade
-- [ ] Reserva de produtos
-- [ ] Relatórios de estoque
-- [ ] Integração com produtos
-
-#### Semana 6: Carrinho e Checkout
-- [ ] Carrinho persistente
-- [ ] Cálculo de totais
-- [ ] Aplicação de descontos
-- [ ] Processo de checkout
-- [ ] Validação de estoque
-- [ ] Interface responsiva
-
-#### Semana 7: Sistema de Pedidos
-- [ ] Criação de pedidos
-- [ ] Gestão de status
-- [ ] Histórico de pedidos
-- [ ] Cancelamento
-- [ ] Integração com pagamentos
-- [ ] Notificações
-
-### Fase 3: Funcionalidades Avançadas (Semanas 8-10)
-**Objetivo**: Implementar recursos específicos da farmácia
-
-#### Semana 8: Sistema de Receitas
-- [ ] Upload de receitas
-- [ ] Validação por farmacêutico
-- [ ] Controle de validade
-- [ ] Histórico de uso
-- [ ] Integração com pedidos
-- [ ] Compliance regulatório
-
-#### Semana 9: Pagamentos e Logística
-- [ ] Integração com gateway
-- [ ] Múltiplas formas de pagamento
-- [ ] Cálculo de frete
-- [ ] Rastreamento de entregas
-- [ ] Confirmação de entrega
-- [ ] Sistema de reembolsos
-
-#### Semana 10: Painel Administrativo
-- [ ] Dashboard com métricas
-- [ ] Gestão de usuários
-- [ ] Relatórios financeiros
-- [ ] Configurações do sistema
-- [ ] Auditoria e logs
-- [ ] Backup e restauração
-
-### Fase 4: Polimento e Deploy (Semanas 11-12)
-**Objetivo**: Finalizar e disponibilizar o sistema
-
-#### Semana 11: Testes e Qualidade
-- [ ] Testes unitários (>80% cobertura)
-- [ ] Testes de integração
-- [ ] Testes end-to-end
-- [ ] Testes de performance
-- [ ] Testes de segurança
-- [ ] Code review completo
-
-#### Semana 12: Deploy e Documentação
-- [ ] Deploy em produção
-- [ ] Configuração de monitoramento
-- [ ] Documentação completa
-- [ ] Guia de instalação
-- [ ] Vídeo demonstrativo
-- [ ] Otimizações finais
-
----
 
 ## ✅ Critérios de Aceitação
 
@@ -575,7 +451,7 @@ PUT /api/v1/prescriptions/{id}/validate
 
 ---
 
-*Documento gerado em: [10-07-2025]*
+*Documento gerado em: 10-07-2025*
 *Versão: 1.0*
 *Status: Em Desenvolvimento*
 
